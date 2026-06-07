@@ -33,7 +33,7 @@ export default function Header() {
                         {/* Permanent Mobile Support Us Button */}
                         <Link
                             href="/support"
-                            className="flex-shrink-0 px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-xs sm:text-sm font-medium bg-terracotta-50 text-white hover:bg-terracotta-600 transition"
+                            className="flex-shrink-0 px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-xs sm:text-sm font-medium bg-terracotta-600 text-white hover:bg-terracotta-600 transition"
                         >
                             Support Us
                         </Link>
@@ -41,7 +41,7 @@ export default function Header() {
                         {/* Desktop-only Contact button */}
                         <a
                             href="mailto:contact@kaadugolla.in"
-                            className="hidden md:inline-block px-4 py-2 rounded-md text-sm font-medium bg-terracotta-50 text-white hover:bg-terracotta-600 transition"
+                            className="hidden md:inline-block px-4 py-2 rounded-md text-sm font-medium bg-terracotta-600 text-white hover:bg-terracotta-600 transition"
                         >
                             Contact
                         </a>
