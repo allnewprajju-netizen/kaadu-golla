@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: rgb(254, 253, 251);
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+/* Semantic HTML improvements */
+main {
+    min-height: calc(100vh - 200px);
+}
+
+/* Improve image performance */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Accessibility: focus states */
+a:focus,
+button:focus {
+    outline: 2px solid rgb(218, 114, 93);
+    outline-offset: 2px;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: rgb(210, 104, 84);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Smooth transitions for theme changes */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+}
