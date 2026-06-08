@@ -45,11 +45,11 @@ export default function MissionStatement() {
                 </div>
             </div>
 
-            <div className="mt-16 bg-earth-50 rounded-xl p-8 md:p-12 border-2 border-earth-300">
+            <div className="mt-16 bg-gradient-to-r from-gray-100 via-green-100 to-gray-200 rounded-xl p-8 md:p-12 border-2 border-earth-300">
                 <h2 className="text-3xl md:text-4xl font-bold text-earth-900 mb-6">
                     Our History.
                 </h2>
-                <p className="text-lg font-bold text-black-900 leading-relaxed mb-9">
+                <p className="text-lg font-bold text-black leading-relaxed mb-9">
                     Dr. B. Chikkappayya
 
                     <p className="text-lg text-black-900 leading-relaxed mb-7">

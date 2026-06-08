@@ -146,9 +146,9 @@ export default function FiguresDirectory() {
                     Is there a community figure we should feature? Are you making a
                     difference in the Kaadu Golla community? Share your story with us.
                 </p>
-                <button className="px-6 py-3 bg-terracotta-500 text-white font-semibold rounded-lg hover:bg-terracotta-600 transition">
-                    Nominate a Figure
-                </button>
+                <a href="mailto:contactkaadugolla@gmail.com" className="px-6 py-3 bg-terracotta-500 text-white font-semibold rounded-lg hover:bg-terracotta-600 transition">
+                    Email Us
+                </a>
             </div>
 
             {/* Community Impact Stats */}
