@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-    title: "Kaadu Golla Community",
+    title: "Kaadu Golla Tribal Community",
     icons: {
     icon: 'https://chatgpt.com/s/m_6a250035aba081919e8ae5cef71ce271'
 

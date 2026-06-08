@@ -25,22 +25,22 @@ export default function Header() {
                         <span className="hidden xs:inline sm:inline">Kaadu Golla Tribal Community :
                              ಕಾಡು ಗೊಲ್ಲ ಬುಡಕಟ್ಟು ಜನಾಂಗ</span>
                         
-                    </Link>
+                </Link>
 
                     {/* Desktop Navigation Links */}
                     <div className="hidden md:flex items-center gap-6 lg:gap-8">
     <Link href="/culture" className="relative text-black dark:text-black hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors group">
-        culture
+        CULTURE
         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
     </Link>
     
     <Link href="/events" className="relative text-black dark:text-black hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors group">
-        Events
+        EVENTS
         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
     </Link>
     
     <Link href="/figures" className="relative text-black dark:text-black hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors group">
-        Figures
+        FIGURES
         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
     </Link>
     

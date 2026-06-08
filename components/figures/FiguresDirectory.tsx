@@ -11,14 +11,24 @@ export default function FiguresDirectory() {
             icon: "👴",
             description: "Preservers of oral history, traditions, and ancestral knowledge",
             members: [
+                
                 {
                     id: 1,
-                    name: "Dr B Chittappayya",
-                    img: "rajanna.png",
-                    role: "Author of 'The Comprehensive History of the Kaadugollas.', Former Indian Forest Service (IFS) officer",
+                    name: "Sri Mahalingappa Meesa",
+                    img: "m.png",
+                    role: "Leader",
                     description:
-                        "Keeper of 200+ years of oral genealogy and traditional pastoral knowledge",
-                    expertise: ["Oral History", "Genealogy"],
+                        "Leads multi-state advocacy for Scheduled Tribe reclassification, Politcal leader from Kaadu Golla community, actively involved in local governance and community development.",
+                    expertise: ["Policy Advocacy", "Government Relations"],
+                },
+                {
+                    id: 2,
+                    name: "Sri Machenahalli Kariyappa",
+                    img: "k.png",
+                    role: "Leader",
+                    description:
+                        "Leads multi-state advocacy for Scheduled Tribe reclassification, Politcal leader from Kaadu Golla community, actively involved in local governance and community development.",
+                    expertise: ["Policy Advocacy", "Government Relations"],
                 },
                 
             ],
@@ -29,16 +39,7 @@ export default function FiguresDirectory() {
             description: "Fighting for constitutional rights, ST classification, and civic justice",
             members: [
                 {
-                    id: 4,
-                    name: "Sri Nagaraj Yadav",
-                    img: "nagaraj-yadav.png",
-                    role: "MLC",
-                    description:
-                        "Leads multi-state advocacy for Scheduled Tribe reclassification. Compiled comprehensive evidence archive for parliamentary presentation.",
-                    expertise: ["Policy Advocacy", "Government Relations"],
-                },
-                {
-                    id: 5,
+                    id: 3,
                     name: "Sri Rajanna",
                     img: "rajanna.png",
                     role: "BBMP Corporator",
@@ -46,6 +47,7 @@ export default function FiguresDirectory() {
                         "Leads multi-state advocacy for Scheduled Tribe reclassification, Politcal leader from Kaadu Golla community, actively involved in local governance and community development.",
                     expertise: ["Policy Advocacy", "Government Relations"],
                 },
+                
             ],
         },
         professionals: {
@@ -54,13 +56,13 @@ export default function FiguresDirectory() {
             description: "Educated youth leading internal reform and modernization",
             members: [
                 {
-                    id: 7,
-                    name: "Dr. Sandeep Golla",
-                    img: "rajanna.png",
-                    role: "Public Health Doctor & Reform Leader",
+                    id: 4,
+                    name: "Dr B Chikkappayya",
+                    img: "c.png",
+                    role: "Author of 'The Comprehensive History of the Kaadugollas.', Retired Indian Forest Service (IFS) officer",
                     description:
-                        "Pioneering health infrastructure in remote Hattis. Leads campaigns against Sutaka practice with community-based alternatives.",
-                    expertise: ["Public Health", "Gender Health", "Community Medicine"],
+                        "Keeper of 200+ years of oral genealogy and traditional pastoral knowledge",
+                    expertise: ["Oral History", "Genealogy"],
                 },
             ],
         },
@@ -69,7 +71,7 @@ export default function FiguresDirectory() {
     const currentCategory = figures[activeCategory as keyof typeof figures];
 
     return (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-9 py-16 md:py-24">
             {/* Category Tabs */}
             <div className="flex flex-wrap gap-3 mb-12 justify-center">
                 {Object.entries(figures).map(([key, section]) => (
